@@ -37,6 +37,7 @@ The application is deployed on Google Cloud Run. Here is the base URL to access 
 
 ```python
 URL_BASE = 'https://diabeteprediction-975813296636.europe-west9.run.app'
-------
+```
 ![image](https://github.com/user-attachments/assets/a4c97141-8504-4875-97f5-e69f959a20f9)
+
 
