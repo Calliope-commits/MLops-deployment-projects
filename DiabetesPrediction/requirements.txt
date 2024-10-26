@@ -1,0 +1,14 @@
+Flask
+gunicorn
+numpy
+pillow
+pydantic
+scikit-learn
+joblib
+pandas
+matplotlib
+seaborn
+pandas
+numpy
+scikit-learn
+joblib
