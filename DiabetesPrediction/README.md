@@ -1,6 +1,6 @@
 # Machine Learning Model API with Streamlit Interface
 
-Streamlit app URL: http://192.168.1.8:8501 . You can find the app by clicking on this link.
+
 
 
 ## Features
