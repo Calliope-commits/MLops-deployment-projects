@@ -30,7 +30,7 @@ def home():
     return jsonify({"message": "Welcome to the diabetes diagnosis prediction API"})
 
 # Define the route for diabetes predictions
-@app.route("/predire", methods=["POST"])
+@app.route("/predict", methods=["POST"])
 def predict():
     """
     Endpoint for predictions using the loaded model.

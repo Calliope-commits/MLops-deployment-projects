@@ -3,7 +3,10 @@ import pandas as pd
 import requests
 
 # API URL
-URL_BASE = 'https://diabeteprediction-975813296636.europe-west9.run.app'
+URL_BASE = 'https://diabete-975813296636.europe-west8.run.app'
+#URL_BASE = '127.0.0.1:8000'
+
+
 
 def send_for_prediction(data):
     """ Sends the data to the API and retrieves predictions. """
@@ -14,6 +17,8 @@ def send_for_prediction(data):
         return None
 
 def main():
+    st.set_page_config(page_title="Diabetes Prediction App", page_icon="🧬")
+
     st.title("Diabetes Prediction Application")
     st.write("Please upload a CSV file containing patient data.")
 
